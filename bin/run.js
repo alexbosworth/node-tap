@@ -13,7 +13,7 @@ const fs = require('fs')
 const fg = require('foreground-child')
 const {spawn, spawnSync} = require('child_process')
 const nycBin = require.resolve(
-  'nyc/' + require('nyc/package.json').bin.nyc
+  '@alexbosworth/nyc/' + require('@alexbosworth/nyc/package.json').bin.nyc
 )
 const glob = require('glob')
 const isexe = require('isexe')
@@ -32,7 +32,7 @@ const flowNode = maybeResolve('flow-remove-types/register')
 const jsx = require.resolve('./jsx.js')
 
 const which = require('which')
-const {ProcessDB} = require('istanbul-lib-processinfo')
+const {ProcessDB} = require('@alexbosworth/istanbul-lib-processinfo')
 const rimraf = require('rimraf').sync
 const {Repl} = require('../lib/repl.js')
 
