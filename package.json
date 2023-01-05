@@ -1,6 +1,6 @@
 {
   "name": "@alexbosworth/tap",
-  "version": "15.0.11",
+  "version": "15.0.12",
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
   "description": "A Test-Anything-Protocol library for JavaScript",
   "homepage": "http://www.node-tap.org/",
